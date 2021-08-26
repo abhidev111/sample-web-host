@@ -1,14 +1,9 @@
 
-// function avg(a,b){
-//     return (a+b)/2;
-// }
 
-// console.log(avg(3,6));
-// console.log(avg(1,2));
 var mydate = new Date();
 document.getElementsByTagName("h5")[0].innerText=mydate;
 
-document.getElementsByClassName("container")[1].style.background ="yellow";
+document.getElementsByClassName("container")[0].style.background ="yellow";
 function clicked(){
     var arr=[];
     var i=0;
@@ -48,27 +43,18 @@ function clicked(){
    
 
     var res = sum/24;
-    
-    document.getElementById("result").innerHTML = "Your CGPA is :"+ res;
-
+    if(Number.isNaN(res)){
+        alert("Please Enter valid input")
+    }
+    else{
+    document.getElementById("result").innerHTML = "Congratulations, Your CGPA is :"+ res;
+    }
     for( i=0; i<9;i++)
     document.getElementById("sub"+i).value ="";
 
     
     
-    //result = document.createElement('p');
-   
-
-
-
-   
-    // console.log("clicked");
-    // const ans = parseInt(document.getElementById("num1").value)   + parseInt(document.getElementById("num2").value);
-    // document.getElementsByTagName("span")[0].innerText = "solution is :"+ans;
-    // result = document.createElement('p');
     
-    // result.innerText= ans;
-    // document.getElementById("calc").appendChild(result);
    
 }
 
