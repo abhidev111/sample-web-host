@@ -48,9 +48,10 @@ function clicked(){
     }
     else{
     document.getElementById("result").innerHTML = "Congratulations, Your CGPA is :"+ res;
-    }
     for( i=0; i<9;i++)
-    document.getElementById("sub"+i).value ="";
+        document.getElementById("sub"+i).value ="";
+    }
+
 
     
     
