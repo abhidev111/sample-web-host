@@ -1,0 +1,49 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+}
+.container{
+    border : 3px solid blue;
+    text-align: center;
+    margin-top: 0.9%;
+    
+}
+#firstContainer{
+    font-size:20px;
+}
+button{
+    font-size:24px;
+}
+.abc{
+    font-size:24px;
+    color: chartreuse;
+}
+#buttn{
+    position: absolute;
+    margin-left :  auto ;
+    /* margin-right: auto; */
+}
+#calc {
+    margin-top :10px;
+  
+    text-align: center;
+    height: 370px;
+    background: cornflowerblue;
+    font-size:24px;
+    
+}
+input{
+    margin:3px;
+    font-size:24px;
+    text-align: center;
+}
+#result{
+    height:50px;
+    background:darkgray;
+    margin: 0px;
+    font-size:30px;
+}
