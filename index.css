@@ -20,6 +20,10 @@ h1,h5{
     text-align: center;
 }
 button{
+    background: rgb(247, 186, 19);
+    color: white;
+    padding: 2px;
+    border: none;
     font-size:24px;
 }
 .abc{
