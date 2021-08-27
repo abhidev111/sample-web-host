@@ -48,7 +48,7 @@ function clicked(){
         alert("Please Enter valid input")
     }
     else{
-    document.getElementById("result").innerHTML = "Congratulations, Your CGPA is :"+ res;
+    document.getElementById("result").innerHTML = "Congratulations, Your CGPA is :"+ res.toFixed(2);
     for( i=0; i<9;i++)
         document.getElementById("sub"+i).value ="";
     }
