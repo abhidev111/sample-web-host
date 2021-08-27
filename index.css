@@ -51,4 +51,5 @@ input{
     position: relative;
     top:15px;
     font-size:100%;
+    word-wrap: break-word;
 }
