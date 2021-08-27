@@ -10,7 +10,7 @@ h1,h5{
     border : 3px solid blue;
     text-align: center;
     position: relative;
-    top : 40px;
+    top : 50px;
 
     
 }
@@ -46,9 +46,9 @@ input{
     text-align: center;
 }
 #result{
-    height:50px;
+    height:60px;
     background:darkgray;
     position: relative;
-    top:10px;
-    font-size:25px;
+    top:15px;
+    font-size:100%;
 }
