@@ -16,6 +16,7 @@ function clicked(){
         if(arr[i]>100 || arr[i]<0)
         {
             alert("invalid marks");
+            return;
         }
         else{
             if(arr[i]==100)
